@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container} from 'reactstrap';
+import Task from './Task';
 
 const ToDo = () => {
   return(
@@ -24,6 +25,7 @@ const ToDo = () => {
          </li>
        </ul>
        <hr />
+       <Task />
      </Container>
   );
 };

@@ -1,7 +1,9 @@
 import React from 'react';
 import {Container} from 'reactstrap';
+//import DogFetch from './DogIndex';
+import DogIndex from './DogIndex';
  
-const Dogs = () => {
+const Dogs = (props) => {
 
   return (
     <Container className="App">
@@ -13,11 +15,15 @@ const Dogs = () => {
       <ul>
         <li>Fetch a random image from this api: <a href="https://dog.ceo/dog-api/">here</a></li>
         <li>Save this image URL to the state of the DogIndex component</li>
-        <li>Render the image to the screen</li>
+        <li>Render the image to the screen</li> 
         <li>Have a button that fetches a new image</li>
-        <li>Make sure to include some good practice error handling</li>
+        <li>Make sure to include some good practice error handling</li> 
       </ul>
       <hr />
+      <div>
+        
+        <DogIndex />
+      </div>
     </Container>
   );
 
