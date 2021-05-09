@@ -11,6 +11,7 @@ class SearchIndex extends React.Component {
  }
 
  function searchFunction () {
+   
  }
 
  render() {
